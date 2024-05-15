@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  font-family: 'Rubik', sans-serif;
+} */
+
+body {
+  @apply bg-white-500
+}
+
+p {
+  @apply text-gray-400
+}
+
+.animation-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  content: '';
+  height: 2px;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  @apply w-0 bg-primary-400 left-1/2 block bottom-0 absolute
+}
+
+.animation-active:after {
+  @apply left-0 w-full
+}
+
+.aniamtion-hover:hover:after {
+  @apply left-0 w-full
+}
