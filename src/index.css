@@ -29,3 +29,32 @@ p {
 .aniamtion-hover:hover:after {
   @apply left-0 w-full
 }
+
+li.custom-list:before {
+  /* content: '\2024'; */
+  /* text-indent: -999999px; */
+
+  width: 0.4em;
+  height: 1em;
+  background-repeat: no-repeat;
+
+  background-size: 0.4em 0.7em;
+  background-position: 0 0.3em;
+  font-size: 300%;
+  top: -0.35em;
+  @apply absolute block
+}
+
+li.circle-check:before {
+  content: '';
+  background-image: url('./assets/icon/circle-tickmark.svg');
+  left: -0.7em;
+  top: -0.4em;
+}
+
+li.check:before {
+  left: -0.5em;
+  background-image: url(./assets/icon/tickmark.svg);
+  top: -0.5em;
+  font-size: 400%;
+}

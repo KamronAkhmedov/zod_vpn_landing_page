@@ -53,3 +53,10 @@ export const SOCIALS = [Faceebook, Twitter, Instagram]
 export const PRODUCT = ['download', 'pricing', 'location', 'server', 'countries', 'blog']
 
 export const ENGAGE = ['zod VPN?', 'FAQ', 'Tutorials', 'About Us', 'Privacy Policy', 'Terms of Service']
+
+export const FEATURES = [
+  'Powerfull online protection.',
+  'Internet without borders.',
+  'Supercharged VPN',
+  'No specific time limits.'
+]

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='bg-white-300 pt-44 pb-24'>
       <div className='max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12'>
-        <div className='bg-gray-500 row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start gap-4'>
+        <div className=' row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start gap-4'>
           <img
             src={LogoVpn}
             alt="logo"
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className='row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col'>
           <p className='text-black-600 mb-4 font-medium text-lg'>Product</p>
-          <ul className='text-gray-400'>
+          <ul className='text-gray-400 capitalize'>
             {PRODUCT.map((item, i) => (
               <li key={i} className='my-2 hover:text-primary-400 cursor-pointer transition-all'>
                 {item}
@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div className='row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col'>
           <p className='text-black-600 mb-4 font-medium text-lg'>Engage</p>
-          <ul className='text-gray-400'>
+          <ul className='text-gray-400 capitalize'>
             {ENGAGE.map((item, i) => (
               <li key={i} className='my-2 hover:text-primary-400 cursor-pointer transition-all'>
                 {item}
