@@ -31,8 +31,8 @@ p {
 }
 
 li.custom-list:before {
-  /* content: '\2024'; */
-  /* text-indent: -999999px; */
+  content: '\2024';
+  text-indent: -999999px;
 
   width: 0.4em;
   height: 1em;
