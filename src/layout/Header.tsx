@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import LogoVpn from '../assets/logo.svg'
-import { Link, Link as LinkScroll } from 'react-scroll'
+import { Link as LinkScroll } from 'react-scroll'
 import { NAV_LINK, NAV_MOB_LINKS } from '../constants'
 
 const Header = () => {

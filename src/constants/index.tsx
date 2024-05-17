@@ -49,3 +49,7 @@ export const LIST_USER = [
 ]
 
 export const SOCIALS = [Faceebook, Twitter, Instagram]
+
+export const PRODUCT = ['download', 'pricing', 'location', 'server', 'countries', 'blog']
+
+export const ENGAGE = ['zod VPN?', 'FAQ', 'Tutorials', 'About Us', 'Privacy Policy', 'Terms of Service']
