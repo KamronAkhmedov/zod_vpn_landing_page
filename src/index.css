@@ -14,6 +14,24 @@ p {
   @apply text-gray-400
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border: 1px solid #8080802f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
 .animation-hover:after {
   background: none repeat scroll 0 0 transparent;
   content: '';
@@ -57,4 +75,9 @@ li.check:before {
   background-image: url(./assets/icon/tickmark.svg);
   top: -0.5em;
   font-size: 400%;
+}
+
+/* Slider */
+.swiper-pagination-horizontal .swiper-pagination-bullet {
+  @apply bg-primary-400 w-12 h-[6px] rounded-lg
 }

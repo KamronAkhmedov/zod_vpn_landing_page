@@ -9,6 +9,12 @@ import Faceebook from '../assets/icon/facebook.svg'
 import Twitter from '../assets/icon/twitter.svg'
 import Instagram from '../assets/icon/instagram.svg'
 import Package from '../assets/package.png'
+import People1 from '../assets/people-1.png'
+import People2 from '../assets/people-2.png'
+import People3 from '../assets/people-3.png'
+import People4 from '../assets/people-4.png'
+
+
 
 export const NAV_LINK = ['about', 'feature', 'pricing', 'testimonial']
 
@@ -102,4 +108,42 @@ export const PRICING_CARD = [
     duration: 'mo'
   },
 
+]
+
+export const TESTIMONIAL = [
+  {
+    name: 'Viezh Robert',
+    image: People1,
+    city: 'Warsaw',
+    country: 'Polland',
+    rating: '4.5',
+    testimoni: 'Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. VPN Zod always the best.'
+  },
+  {
+    name: 'Yessica Christy',
+    image: People2,
+    city: 'Shanxi',
+    country: 'China',
+    rating: '4.5',
+    testimoni:
+      'I like it because I like to travel far and still can connect with high speed.',
+  },
+  {
+    name: 'Kim Young Jou',
+    image: People3,
+    city: 'Seoul',
+    country: 'South Korea',
+    rating: '4.5',
+    testimoni:
+      'This is very unusual for my business that currently requires a virtual private network that has high security.',
+  },
+  {
+    name: 'John Anderson',
+    image: People4,
+    city: 'New York',
+    country: 'USA',
+    rating: '5',
+    testimoni:
+      'I like it because I like to travel far and still can connect with high speed.',
+  },
 ]
