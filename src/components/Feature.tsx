@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import getScrollAnimation from '../utils/getScrollAnimation'
 import AnimationWrapper from '../layout/AnimationWrapper'
 import FeatureImg from '../assets/feature-image.png'

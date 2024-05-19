@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { motion } from 'framer-motion'
 import Map from '../assets/map.svg'
 import getScrollAnimation from '../utils/getScrollAnimation'
